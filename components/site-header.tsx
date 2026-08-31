@@ -16,11 +16,9 @@ export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur border-b border-[var(--line)]">
       <div className="container-px mx-auto max-w-6xl h-16 flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 font-extrabold text-lg text-[var(--ink)]">
-          <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--brand)] text-white text-base">
-            인
-          </span>
-          인우테크
+        <Link href="/" className="flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img src="/logo.png" alt="인우테크" className="h-8 w-auto" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-[var(--ink)]">

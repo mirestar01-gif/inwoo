@@ -50,11 +50,9 @@ export default function DashboardShell({
     <div className="min-h-screen flex flex-col bg-[var(--background)]">
       <header className="sticky top-0 z-40 bg-white border-b border-[var(--line)]">
         <div className="container-px mx-auto max-w-6xl h-16 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 font-extrabold text-[var(--ink)]">
-            <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-[var(--brand)] text-white text-base">
-              인
-            </span>
-            <span className="hidden sm:inline">인우테크</span>
+          <Link href="/" className="flex items-center gap-2">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/logo.png" alt="인우테크" className="h-7 w-auto" />
             <span className="text-xs font-semibold text-[var(--brand)] bg-[var(--brand-light)] rounded-full px-2 py-0.5">
               {title}
             </span>
