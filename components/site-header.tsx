@@ -18,7 +18,7 @@ export default function SiteHeader() {
       <div className="container-px mx-auto max-w-6xl h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img src="/logo.png" alt="인우테크" className="h-8 w-auto" />
+          <img src="/logo.svg" alt="인우테크" className="h-8 w-auto" />
         </Link>
 
         <nav className="hidden md:flex items-center gap-6 text-sm font-semibold text-[var(--ink)]">
